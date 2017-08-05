@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:paddingTop="5dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/buttonshape"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/bankLogo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:focusable="false"
+            android:src="@mipmap/ic_allahabadbank_logo" />
+
+        <TextView
+            android:id="@+id/BankHeaderTitle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:text="Allahabad Bank"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="@color/colorBGwhite" />
+
+</LinearLayout>
+</RelativeLayout>

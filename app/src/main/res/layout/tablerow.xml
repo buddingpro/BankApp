@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/BodyRow"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal">
+
+    <TableRow
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent">
+
+    <TextView
+        android:id="@+id/MonthNameRow"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:text="Oct-15"
+        android:padding="2dp"
+        android:gravity="center"
+        android:textAlignment="center"/>
+
+    <TextView
+        android:id="@+id/OpeningRow"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:padding="2dp"
+        android:gravity="center"
+        android:textAlignment="center"
+        android:text="250000.00"/>
+
+    <TextView
+        android:id="@+id/InterestRow"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="0.5"
+        android:textAlignment="center"
+        android:padding="2dp"
+        android:gravity="center"
+        android:text="2409.00"/>
+
+    <TextView
+        android:id="@+id/closingRow"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:padding="2dp"
+        android:gravity="center"
+        android:text="250000.00" />
+
+    </TableRow>
+</LinearLayout>

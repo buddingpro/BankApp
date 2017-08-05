@@ -1,0 +1,102 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/Table"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="?attr/actionBarSize"
+    android:background="@color/colorBGwhite"
+    android:orientation="vertical"
+    android:clickable="true"
+    android:padding="3dp">
+
+    <RadioGroup
+        android:id="@+id/MonthAndYear"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="5dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:id="@+id/MonthRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginRight="10dp"
+            android:checked="true"
+            android:text="Month" />
+
+        <RadioButton
+            android:id="@+id/YearRadio"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:text="Year" />
+    </RadioGroup>
+
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/HeaderTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/spinner"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/MonthName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@color/tableHeader"
+            android:text="Month\nYear"
+            android:textAlignment="center"
+            android:textColor="@color/colorBGwhite"></TextView>
+
+        <TextView
+            android:id="@+id/Opening"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/tableHeader"
+            android:text="Opening\nBalance"
+            android:textAlignment="center"
+            android:textColor="@color/colorBGwhite" />
+
+        <TextView
+            android:id="@+id/InterestE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:background="@color/tableHeader"
+            android:text="Interest\nEarned"
+            android:textAlignment="center"
+
+            android:textColor="@color/colorBGwhite" />
+
+        <TextView
+            android:id="@+id/closing"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/tableHeader"
+            android:text="Closing\nBalance"
+            android:textAlignment="center"
+            android:textColor="@color/colorBGwhite" />
+
+
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/scrollViewTable"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <com.bankerwala.app.CustomTableLayout
+
+            android:id="@+id/table_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </ScrollView>
+</LinearLayout>

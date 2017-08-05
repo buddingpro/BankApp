@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3063A5</color>
+    <color name="colorPrimaryDark">#2B4F81</color>
+    <color name="colorAccent">#3063A5</color>
+    <color name="colorBGwhite">#FFFFFF</color>
+    <color name="Black">#000000 </color>
+    <color name="RED">#FF0000 </color>
+    <color name="Brown">#FFE8C7</color>
+    <color name="Reset">#5ad75a</color>
+    <color name="MenuButton">#3498DB </color>
+    <color name="spinner">#D3D3D3</color>
+    <color name="PowderBlue">#d3e4ef</color>
+    <color name="Blue">#0091EA</color>
+    <color name="PieChartBlue">#0091EA</color>
+    <color name="PieChartOrange">#F57F17</color>
+    <color name="tableHeader">#5b86b4</color>
+    <color name="RedForDelete">#FF3232</color>
+
+</resources>

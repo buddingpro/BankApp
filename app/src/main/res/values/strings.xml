@@ -1,0 +1,265 @@
+<resources>
+    <string name="app_name">BankerWala</string>
+    <string name="title_activity_appdrawer">Appdrawer</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="Click_here">Click here to know latest interest rate</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_search">update button</string>
+    <string name="action_popOut">pop out button</string>
+    <string name="action_WebSearch">search menu</string>
+    <string name="search_hint">Search Banks</string>
+    <string name="search_label">Search Label</string>
+    <string name="fdLabel">Fixed Deposit Interest Rates</string>
+    <string name="rdLabel">Recurring Deposit Interest Rates</string>
+    <string-array name="menus">
+        <item>Fixed Deposit Interest Rates</item>
+        <item>Recurring Deposit Interest Rates</item>
+        <item>Search Banks</item>
+    </string-array>
+
+    <string name="Allahabad_Bank_url_fd">https://www.allahabadbank.in/english/Deposit_Schemes.aspx</string>
+    <string name="Allahabad_Bank_url_rd">https://www.allahabadbank.in/english/Normal_RD_Account1.aspx</string>
+
+    <string name="Andhra_Bank_url_fd">http://www.andhrabank.in/english/InterestRate.aspx</string>
+    <string name="Andhra_Bank_url_rd">http://www.andhrabank.in/english/RecurringDeposits.aspx</string>
+
+    <string name="Axis_Bank_url_fd">https://www.axisbank.com/retail/deposits/fixed-deposits</string>
+    <string name="Axis_Bank_url_rd">https://www.axisbank.com/retail/deposits/recurring-deposits</string>
+
+    <string name="Bank_of_Baroda_url_fd">http://www.bankofbaroda.co.in/interest.asp</string>
+    <string name="Bank_of_Baroda_url_rd">http://www.bankofbaroda.co.in/interest.asp</string>
+
+    <string name="Bank_of_India_url_fd">http://www.bankofindia.co.in/english/RupeeTermDeposit.aspx</string>
+    <string name="Bank_of_India_url_rd"></string>
+
+    <string name="Bank_of_Maharashtra_url_fd">http://www.bankofmaharashtra.in/int_chart.asp</string>
+    <string name="Bank_of_Maharashtra_url_rd"></string>
+
+    <string name="Bharatiya_Mahila_Bank_url_fd">http://www.bmb.co.in/rate-interest-saving-and-deposits</string>
+    <string name="Bharatiya_Mahila_Bank_url_rd"></string>
+
+    <string name="Canara_Bank_url_fd">http://www.canarabank.com/english/quick-access/interest-rates/</string>
+    <string name="Canara_Bank_url_rd"></string>
+
+    <string name="Capital_Local_Area_Bank_url_fd">http://www.capitalbank.co.in/interest-rates/46-domestic-term-deposit</string>
+    <string name="Capital_Local_Area_Bank_url_rd"></string>
+
+    <string name="Catholic_Syrian_Bank_url_fd">http://www.csb.co.in/interest-rates</string>
+    <string name="Catholic_Syrian_Bank_url_rd"></string>
+
+    <string name="Central_Bank_of_India_url_fd">https://www.centralbankofindia.co.in/English/interestrate.aspx</string>
+    <string name="Central_Bank_of_India_url_rd"></string>
+
+    <string name="Citi_Union_Bank_url_fd">http://www.cityunionbank.com/web-page/deposit-interest-rate</string>
+    <string name="Citi_Union_Bank_url_rd"></string>
+
+    <string name="Corporation_Bank_url_fd">http://www.corpbank.com/rates_deposit_rate</string>
+    <string name="Corporation_Bank_url_rd"></string>
+
+    <string name="DCB_Bank_url_fd">http://www.dcbbank.com/cms/showpage/page/dcb-fixed-deposits/ppage/deposit-rates</string>
+    <string name="DCB_Bank_url_rd"></string>
+
+    <string name="Dena_Bank_url_fd">http://www.denabank.com/viewsection.jsp?id=0,3,21,125</string>
+    <string name="Dena_Bank_url_rd"></string>
+
+    <string name="Dhanlaxmi_Bank_url_fd">http://www.dhanbank.com/header/interest_rates.aspx</string>
+    <string name="Dhanlaxmi_Bank_url_rd"></string>
+
+    <string name="Federal_Bank_url_fd">http://www.federalbank.co.in/deposit-rate</string>
+    <string name="Federal_Bank_url_rd"></string>
+
+    <string name="HDFC_Bank_url_fd">http://www.hdfcbank.com/personal/interest-rates</string>
+    <string name="HDFC_Bank_url_rd"></string>
+
+    <string name="ICICI_Bank_url_fd">https://www.icicibank.com/interest-rates.page</string>
+    <string name="ICICI_Bank_url_rd"></string>
+
+    <string name="IDBI_Bank_url_fd">http://www.idbi.com/interest-rates.asp</string>
+    <string name="IDBI_Bank_url_rd"></string>
+
+    <string name="Indian_Bank_url_fd">http://www.indianbank.in/rate_deposit.php</string>
+    <string name="Indian_Bank_url_rd"></string>
+
+    <string name="Indian_Overseas_Bank_url_fd">https://www.iob.in/Rates_At_a_glance.aspx</string>
+    <string name="Indian_Overseas_Bank_url_rd"></string>
+
+    <string name="IndusInd_Bank_url_fd">http://www.indusind.com/footer/rates.html</string>
+    <string name="IndusInd_Bank_url_rd"></string>
+
+    <string name="Jammu_and_Kashmir_Bank_url_fd">http://www.jkbank.net/others/common/intrates.php</string>
+    <string name="Jammu_and_Kashmir_Bank_url_rd"></string>
+
+    <string name="Karnataka_Bank_url_fd">https://www.karnatakabank.com/ktk/InterestChartTD.jsp</string>
+    <string name="Karnataka_Bank_url_rd"></string>
+
+    <string name="Karur_Vysya_Bank_url_fd">http://www.kvb.co.in/global/resident_domestic_deposits.html</string>
+    <string name="Karur_Vysya_Bank_url_rd"></string>
+
+    <string name="Kotak_Mahindra_Bank_url_fd">http://www.kotak.com/interest-rates.html</string>
+    <string name="Kotak_Mahindra_Bank_url_rd"></string>
+
+    <string name="Lakshmi_Vilas_Bank_url_fd">https://www.lvbank.com/interestchart.aspx</string>
+    <string name="Lakshmi_Vilas_Bank_url_rd"></string>
+
+    <string name="Nainital_Bank_url_fd">http://www.nainitalbank.co.in/english/interest_rate01.aspx</string>
+    <string name="Nainital_Bank_url_rd"></string>
+
+    <string name="Oriental_Bank_of_Commerce_url_fd">https://www.obcindia.co.in/obcnew/site/inner.aspx?status=R1&amp;menu_id=13</string>
+    <string name="Oriental_Bank_of_Commerce_url_rd"></string>
+
+    <string name="Punjab_National_Bank_url_fd">https://www.pnbindia.in/Interest-Rates-Deposit.html</string>
+    <string name="Punjab_National_Bank_url_rd"></string>
+
+    <string name="RBL_Bank_url_fd">http://www.rblbank.com/FixedDeposit.aspx</string>
+    <string name="RBL_Bank_url_rd"></string>
+
+    <string name="South_Indian_Bank_url_fd">https://www.southindianbank.com/interestrate/interestratelist.aspx</string>
+    <string name="South_Indian_Bank_url_rd"></string>
+
+    <string name="State_Bank_of_Bikaner_and_Jaipur_url_fd">https://www.sbbjbank.com/rates-tools/Interest-Rates-on-term-deposits.htm</string>
+    <string name="State_Bank_of_Bikaner_and_Jaipur_url_rd"></string>
+
+    <string name="State_Bank_of_Hyderabad_url_fd">https://www.sbhyd.com/interest-rates/deposit-schemes/</string>
+    <string name="State_Bank_of_Hyderabad_url_rd"></string>
+
+    <string name="State_Bank_of_India_url_fd">https://www.sbi.co.in/portal/web/interest-rates/domestic-term-deposits</string>
+    <string name="State_Bank_of_India_url_rd"></string>
+
+    <string name="State_Bank_of_Mysore_url_fd">http://www.statebankofmysore.co.in/deposits/91.html</string>
+    <string name="State_Bank_of_Mysore_url_rd"></string>
+
+    <string name="State_Bank_of_Patiala_url_fd">https://www.sbp.co.in/maininterestrates.aspx</string>
+    <string name="State_Bank_of_Patiala_url_rd"></string>
+
+    <string name="State_Bank_of_Travancore_url_fd">http://www.statebankoftravancore.com/portal/deposits</string>
+    <string name="State_Bank_of_Travancore_url_rd"></string>
+
+    <string name="Syndicate_Bank_url_fd">https://www.syndicatebank.in/english/RateofInterest.aspx</string>
+    <string name="Syndicate_Bank_url_rd"></string>
+
+    <string name="Tamilnad_Mercantile_Bank_url_fd">http://www.tmb.in/deposit_interest_rates/get_best_interest_rates_on_all_domestic_deposits_and_savings.html</string>
+    <string name="Tamilnad_Mercantile_Bank_url_rd"></string>
+
+    <string name="UCO_Bank_url_fd">https://www.ucobank.com/interest-rates/interest-rates.aspx#.WFTDfdJ97IU</string>
+    <string name="UCO_Bank_url_rd"></string>
+
+    <string name="Union_Bank_of_India_url_fd">http://www.unionbankofindia.co.in/interest_rate.aspx</string>
+    <string name="Union_Bank_of_India_url_rd"></string>
+
+    <string name="United_Bank_of_India_url_fd">http://www.unitedbankofindia.com/english/RatesDeposit.aspx</string>
+    <string name="United_Bank_of_India_url_rd"></string>
+
+    <string name="Vijaya_Bank_url_fd">https://www.vijayabank.com/Help-Desk/Interest-Rates</string>
+    <string name="Vijaya_Bank_url_rd"></string>
+
+    <string name="Yes_Bank_url_fd">https://www.yesbank.in/personal-banking/yes-individual/deposits/fixed-deposit-residents</string>
+    <string name="Yes_Bank_url_rd"></string>
+
+    <string name="checkconnection">Please Check Your Network Connection!</string>
+    <string name="fixed_deposit_calculator">Fixed Deposit Calculator</string>
+    <string name="recurring_deposit_calculator">Recurring Deposit Calculator</string>
+    <string name="emi_calculator">EMI Calculator</string>
+    <string name="banking_calculator">Banking Calculator</string>
+    <string name="principal_amount">Principal Amount</string>
+    <string name="annual_interest_rate">Interest Rate (%)</string>
+    <string name="enter_annual_interest_rate">Enter Interest Rate (%)</string>
+    <string name="period">Period</string>
+    <string name="compounding">Compounding</string>
+    <string name="calculate">CALCULATE</string>
+
+    <string name="reset">RESET</string>
+    <string name="maturity_amount">Maturity Value</string>
+    <string name="periodical_Payout">Periodical Payout</string>
+    <string name="interest_earned">Interest Earned</string>
+    <string name="returns">Returns (%)</string>
+    <string name="InvestmentStartDate">Deposit  Date</string>
+    <string name="MaturityDate">Maturity Date</string>
+    <string name="deposit_value">Deposit Value</string>
+    <string name="chart">CHART</string>
+    <string name="share">SHARE</string>
+    <string name="details">DETAILS</string>
+    <string name="enter_monthly_deposit_value">Enter Monthly Deposit Value</string>
+    <string name="fd_type">FD Type</string>
+    <string name="enter_loan_amount">Enter Loan Amount</string>
+    <string name="tenure">Tenure</string>
+    <string name="about">About</string>
+    <string name="help">Help</string>
+    <string name="save">Save</string>
+    <string name="view">View</string>
+    <string name="aboutdescription">Thank you for downloading and using this application. BankerWala App is an one stop application for all financial calculations. All
+    efforts have been made to provide the most accurate results on this application. We are more passionate in adding more financial calculators in upcoming versions.</string>
+    <string name="aboutQuery">Please send us valuable feedback, queries, improvements to zeroandonelab@gmail.com</string>
+    <string name="version">1.0</string>
+
+    <string-array name="Banks">
+        <item>Allahabad Bank</item>
+        <item>Andhra Bank</item>
+        <item>Axis Bank</item>
+        <item>Bank of Baroda</item>
+        <item>Bank of India</item>
+        <item>Bank of Maharashtra</item>
+        <item>Bharatiya Mahila Bank</item>
+        <item>Canara Bank</item>
+        <item>Capital Local Area Bank</item>
+        <item>Catholic Syrian Bank</item>
+        <item>Central Bank of India</item>
+        <item>Citi Union Bank</item>
+        <item>Corporation Bank</item>
+        <item>DCB Bank</item>
+        <item>Dena Bank</item>
+        <item>Dhanlaxmi Bank</item>
+        <item>Federal Bank</item>
+        <item>HDFC Bank</item>
+        <item>ICICI Bank</item>
+        <item>IDBI Bank</item>
+        <item>Indian Bank</item>
+        <item>Indian Overseas Bank</item>
+        <item>IndusInd Bank</item>
+        <item>Jammu and Kashmir Bank</item>
+        <item>Karnataka Bank</item>
+        <item>Kotak Mahindra Bank</item>
+        <item>Lakshmi Vilas Bank</item>
+        <item>Nainital Bank</item>
+        <item>Oriental Bank of Commerce</item>
+        <item>Punjab National Bank</item>
+        <item>RBL Bank</item>
+        <item>South Indian Bank</item>
+        <item>State Bank of Bikaner and Jaipur</item>
+        <item>State Bank of Hyderabad</item>
+        <item>State Bank of India</item>
+        <item>State Bank of Mysore</item>
+        <item>State Bank of Patiala</item>
+        <item>State Bank of Travancore</item>
+        <item>Syndicate Bank</item>
+        <item>Tamilnad Mercantile Bank</item>
+        <item>UCO Bank</item>
+        <item>Union Bank of India</item>
+        <item>United Bank of India</item>
+        <item>Vijaya Bank</item>
+        <item>Yes Bank</item>
+    </string-array>
+
+    <string-array name="Calculators">
+        <item>Fixed Deposit Calculator</item>
+        <item>Recurring Deposit Calculator</item>
+        <item>EMI Calculator</item>
+    </string-array>
+
+
+    <string name="disclaimer">All efforts have been made to provide the most accurate results on this Application.The information and calculators
+        have been made available keeping our clients interest in mind. However its advisable to contact your desired bank before making any investment decisions or to know about returns</string>
+
+    <string name="helpText">To know the latest interest rate of Fixed deposit scheme, click on your desired bank from the list of 50 private and public banks.
+        This will redirect to your desired bank\'s official web page within the BankerWala app. However, if you wish to view the same in your preferred
+        browser then click on the popout button on the top right corner of this app. You can also refresh the
+        displayed webpage by clicking on the refresh button. Few of the web pages may not be viewable within the BankerWala app
+        since they could be in .pdf format, in which case it is advisable to view the same in your preferred browser.
+    </string>
+    <string name="notify_me_2_days_before_maturity_date">Notify me 2 days before maturity date</string>
+    <string name="save_profile">Save Profile</string>
+    <string name="delete">Delete</string>
+
+
+</resources>
